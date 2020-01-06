@@ -1,0 +1,11 @@
+﻿  Game.cpp
+  Graphics.cpp
+  Main.cpp
+  MainWindow.cpp
+  RubicsFace.cpp
+  Generating code
+  15 of 631 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Engine.vcxproj -> C:\Users\UW Stars\Source\Repos\RubicsCube\Release\Engine.exe
