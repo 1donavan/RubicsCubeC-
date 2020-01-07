@@ -25,7 +25,16 @@ Game::Game( MainWindow& wnd )
 	:
 	wnd( wnd ),
 	gfx( wnd ),
-	top(Vei2(0,0), std::vector<Color> {Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange})
+	r(std::vector<Color> {Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange,
+							Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange,
+		Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange,
+		Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange,
+		Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange,
+		Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange,
+		Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange,
+		Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange, 
+		Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange, 
+		Colors::White, Colors::Green, Colors::Red, Colors::Yellow, Colors::Blue, Colors::Orange})
 {
 }
 
@@ -43,5 +52,5 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
-	gfx.DrawRubicsFace(top);
+	gfx.DrawRubicsCube(r);
 }

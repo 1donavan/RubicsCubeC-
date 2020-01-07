@@ -341,7 +341,14 @@ void Graphics::DrawRubicsFace(RubicsFace f)
 		} else {
 			currSquareColor = f.faceColors[numSquare];
 		}
-		DrawRect(RectI(currentOrigin, f.GetDrawDimension(), f.GetDrawDimension()), currSquareColor);
+		DrawRectPadding(RectI(currentOrigin, f.GetDrawDimension(), f.GetDrawDimension()), f.GetCellPadding(), currSquareColor);
+	}
+}
+
+void Graphics::DrawRubicsCube(RubicsCube r)
+{
+	for (int i = 0; i < 6; i++) {
+		DrawRubicsFace(r.GetFace(i));
 	}
 }
 

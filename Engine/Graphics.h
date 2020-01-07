@@ -25,6 +25,7 @@
 #include "Colors.h"
 #include "RectI.h"
 #include "RubicsFace.h"
+#include "RubicsCube.h"
 #include <vector>
 
 class Graphics
@@ -64,7 +65,11 @@ public:
 	{
 		DrawRect(rect.left, rect.top, rect.right, rect.bottom, c);
 	}
+	void DrawRectPadding(const RectI& rect, int padding, Color c) {
+		DrawRect(rect.left + padding, rect.top + padding, rect.right - padding * 2, rect.bottom - padding * 2, c);
+	}
 	void DrawRubicsFace(RubicsFace f);
+	void DrawRubicsCube(RubicsCube r);
 	~Graphics();
 private:
 	Microsoft::WRL::ComPtr<IDXGISwapChain>				pSwapChain;
