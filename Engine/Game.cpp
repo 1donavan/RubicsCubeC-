@@ -20,6 +20,7 @@
  ******************************************************************************************/
 #include "MainWindow.h"
 #include "Game.h"
+#include <iostream>
 
 Game::Game( MainWindow& wnd )
 	:

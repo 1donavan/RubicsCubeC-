@@ -1,6 +1,2 @@
-﻿  Game.cpp
-  Graphics.cpp
-  Main.cpp
-  MainWindow.cpp
-  RubicsCube.cpp
+﻿  RubicsCube.cpp
   Engine.vcxproj -> C:\Users\UW Stars\Source\Repos\RubicsCube\x64\Debug\Engine.exe

@@ -4,6 +4,7 @@
 #include "RubicsFace.h"
 #include "Colors.h"
 
+
 class RubicsCube {
 public:
 	RubicsCube();
@@ -15,8 +16,13 @@ public:
 
 
 private:
+	void SetOrigins();
+	Vei2 centerOfScreen = { 400, 300 };
 	std::vector<Color> cubeColors;
 	RubicsFace rubicsSides[6];
-	Vei2 origins[6] = { {200,40}, {200, 140}, {200, 240}, {100,140}, {300, 140}, {400, 140} };
+	int dimension = 3;
+	int squareSize = 20;
+	int gapBetweenSides = 40;
+	Vei2 origins[6];
 
 };
