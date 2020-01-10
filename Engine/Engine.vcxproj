@@ -149,6 +149,7 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="RubicsCube.h" />
     <ClInclude Include="RubicsFace.h" />
+    <ClInclude Include="SingleCube.h" />
     <ClInclude Include="Vei2.h" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +163,7 @@
     <ClCompile Include="RectI.cpp" />
     <ClCompile Include="RubicsCube.cpp" />
     <ClCompile Include="RubicsFace.cpp" />
+    <ClCompile Include="SingleCube.cpp" />
     <ClCompile Include="Vei2.cpp" />
   </ItemGroup>
   <ItemGroup>

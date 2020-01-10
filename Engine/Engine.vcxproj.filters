@@ -60,6 +60,9 @@
     <ClInclude Include="RubicsCube.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SingleCube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DXErr.cpp">
@@ -93,6 +96,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RubicsCube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleCube.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
